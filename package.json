@@ -1,0 +1,26 @@
+{
+  "name": "turk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "build": "babel src --out-dir dist",
+    "serve": "node dist/server.js"
+  },
+  "author": "safi eddine bouhentala",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "*",
+    "@babel/core": "*",
+    "@babel/node": "*",
+    "@babel/preset-env": "*",
+    "jest": "^24.9.0",
+    "nodemon": "*"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "lodash": "^4.17.15",
+    "node-fetch": "^2.6.0"
+  }
+}
